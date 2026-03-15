@@ -1,26 +1,26 @@
 class Fileuni < Formula
   desc "FileUni CLI"
   homepage "https://fileuni.com"
-  version "0.0.2-alpha2"
+  version "0.0.2-alpha4.11.20260316002214"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.2-alpha2/FileUni-cli-aarch64-macos-darwin.zip"
-      sha256 "99417fdf90d45871c8b2c47960d76e8d824130107d2c0cf9b46c54be62c2a463"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.2-alpha4.11_20260316002214/FileUni-cli-aarch64-macos-darwin.zip"
+      sha256 "c1bef8724a47ada6e51b884f062d20781bdc02bf587aad033c386b71c777aa69"
     else
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.2-alpha2/FileUni-cli-x86_64-macos-darwin.zip"
-      sha256 "3fdcde7e840cea3752401224b4cd696d8e3a0e32c7dbca7b3536b724bce5ad9a"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.2-alpha4.11_20260316002214/FileUni-cli-x86_64-macos-darwin.zip"
+      sha256 "76d179808346a740e03cbff82783886c2e1a1b15273bb80ebbf7a8cc10083c7b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.2-alpha2/FileUni-cli-aarch64-linux-gnu.zip"
-      sha256 "02c713ab5cfe54d794227f28bd48fd3cad798d21db17db62cc398394b66f982a"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.2-alpha4.11_20260316002214/FileUni-cli-aarch64-linux-gnu.zip"
+      sha256 "a2ce8de42f3cfd00f49eddc6400fad935f92a1f08f262b3fe3e405942a24bd95"
     else
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.2-alpha2/FileUni-cli-x86_64-linux-gnu.zip"
-      sha256 "d306d2681227e96d05db365b36c79fe78aaaa7d145280aa78e0107f4e73ba736"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.2-alpha4.11_20260316002214/FileUni-cli-x86_64-linux-gnu.zip"
+      sha256 "9de370703395a7ce6bb2d83b40856bf4bfad05500ee076fb90b32ec25ad57194"
     end
   end
 
