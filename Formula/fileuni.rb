@@ -1,26 +1,26 @@
 class Fileuni < Formula
   desc "FileUni CLI"
   homepage "https://fileuni.com"
-  version "0.0.2-alpha4.11.20260316002214"
+  version "0.0.3"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.2-alpha4.11_20260316002214/FileUni-cli-aarch64-macos-darwin.zip"
-      sha256 "c1bef8724a47ada6e51b884f062d20781bdc02bf587aad033c386b71c777aa69"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.3/FileUni-cli-aarch64-macos-darwin.zip"
+      sha256 "1ae1df1525a472dd4125e1ff7d754538d6e706a1b68e53c4b98fe4342d34d986"
     else
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.2-alpha4.11_20260316002214/FileUni-cli-x86_64-macos-darwin.zip"
-      sha256 "76d179808346a740e03cbff82783886c2e1a1b15273bb80ebbf7a8cc10083c7b"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.3/FileUni-cli-x86_64-macos-darwin.zip"
+      sha256 "e2b236f3540a93b6524c5ed919dc2fd360492555e5b7e9e7e683babbb2e733df"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.2-alpha4.11_20260316002214/FileUni-cli-aarch64-linux-gnu.zip"
-      sha256 "a2ce8de42f3cfd00f49eddc6400fad935f92a1f08f262b3fe3e405942a24bd95"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.3/FileUni-cli-aarch64-linux-gnu.zip"
+      sha256 "14cbcb9cb203b48aa335d9df614d6fa8653e865735a84a9b688c87defb36d0f7"
     else
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.2-alpha4.11_20260316002214/FileUni-cli-x86_64-linux-gnu.zip"
-      sha256 "9de370703395a7ce6bb2d83b40856bf4bfad05500ee076fb90b32ec25ad57194"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.3/FileUni-cli-x86_64-linux-gnu.zip"
+      sha256 "1bd21d9ad5e8662eda7f4c7e0718077dac4c7fa6d3325d1594264f2dc7dcdb7f"
     end
   end
 
