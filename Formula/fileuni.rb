@@ -1,26 +1,26 @@
 class Fileuni < Formula
   desc "FileUni CLI"
   homepage "https://fileuni.com"
-  version "0.0.4-alpha.4.20260316172913"
+  version "0.0.4-alpha.5.20260316202935"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.4_20260316172913/FileUni-cli-aarch64-macos-darwin.zip"
-      sha256 "201f8e98147eb6a3d47d7ac9834af173ffdaf64c9af667a0a3ffb9d7af2d6ac3"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.5_20260316202935/FileUni-cli-aarch64-macos-darwin.zip"
+      sha256 "b80fb26bf12cc05af6c5759d16faa32f16da17ae2ea3b2901dd52e977663ec7d"
     else
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.4_20260316172913/FileUni-cli-x86_64-macos-darwin.zip"
-      sha256 "062fb09e18f3553dfd40b51a4babdcc752e28b2f4fdfd08ce37afeeef3d15590"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.5_20260316202935/FileUni-cli-x86_64-macos-darwin.zip"
+      sha256 "de8815b5bd201bd7ff1d587b56a3d29eb18f0674548e514085322bef55d70cb8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.4_20260316172913/FileUni-cli-aarch64-linux-gnu.zip"
-      sha256 "651103d9fdad85ddde555ae34c656e26d5ec9c875bc401bc3f454627374eb07c"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.5_20260316202935/FileUni-cli-aarch64-linux-gnu.zip"
+      sha256 "305342fd6dec8681529c1c77764b40032a638880ed37c30f40a8418d5a6de5f9"
     else
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.4_20260316172913/FileUni-cli-x86_64-linux-gnu.zip"
-      sha256 "c0542fd089d4a913e5681b1a9cd95badffc72c2164e1a5552817db4aa537f572"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.5_20260316202935/FileUni-cli-x86_64-linux-gnu.zip"
+      sha256 "c1ff38204928bfeca1df8e0f3231e21f62b6c3dc13e07d0f81951c5c0b716560"
     end
   end
 
