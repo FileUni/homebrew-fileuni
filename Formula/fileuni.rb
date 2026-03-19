@@ -1,26 +1,26 @@
 class Fileuni < Formula
   desc "FileUni CLI"
   homepage "https://fileuni.com"
-  version "0.0.4-alpha.12.20260319144653"
+  version "0.0.4"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.12_20260319144653/FileUni-cli-aarch64-macos-darwin.zip"
-      sha256 "53474dfefe9ef833cbbc003cc7318e8bf62ed3bce8a87fdd76ef4344b5d3bd54"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4/FileUni-cli-aarch64-macos-darwin.zip"
+      sha256 "57ff79ed68824c60add39512232c431ae280979c957f50225a60536668c09739"
     else
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.12_20260319144653/FileUni-cli-x86_64-macos-darwin.zip"
-      sha256 "d19f0452cb514990d9df0f66c8b0b9ab85cd19bf806470a8bf1281a942ab633d"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4/FileUni-cli-x86_64-macos-darwin.zip"
+      sha256 "0de581a45e6b739fa5733a0baca61cb848d1519c418e7b26e76d3a89a1575563"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.12_20260319144653/FileUni-cli-aarch64-linux-gnu.zip"
-      sha256 "98d32438f6c937c2917add9825dfd1cb52eade4df842f8a0bfdbbdc495e68074"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4/FileUni-cli-aarch64-linux-gnu.zip"
+      sha256 "c9fe28d938aebbf344e48b9a46b1068fa099a5304457540498d84cd40a4ee724"
     else
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.12_20260319144653/FileUni-cli-x86_64-linux-gnu.zip"
-      sha256 "87ca5aa32a69b58ce2430f48cf4db77a5481cccfbb9fcff8bd557c8768cb9b51"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4/FileUni-cli-x86_64-linux-gnu.zip"
+      sha256 "c8d50d1248754473989200a5faa8a8bea928f828fa5536551aa1a07d6733f69d"
     end
   end
 
