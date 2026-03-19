@@ -1,26 +1,26 @@
 class Fileuni < Formula
   desc "FileUni CLI"
   homepage "https://fileuni.com"
-  version "0.0.4-alpha.10.20260318223617"
+  version "0.0.4-alpha.12.20260319144653"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.10_20260318223617/FileUni-cli-aarch64-macos-darwin.zip"
-      sha256 "3ff0de427cdc3224b6d6955396a05a1e30b8a8089f3e42e04a1975a45178e3d5"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.12_20260319144653/FileUni-cli-aarch64-macos-darwin.zip"
+      sha256 "53474dfefe9ef833cbbc003cc7318e8bf62ed3bce8a87fdd76ef4344b5d3bd54"
     else
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.10_20260318223617/FileUni-cli-x86_64-macos-darwin.zip"
-      sha256 "acd6cce0079332d062fae0b87bbe460a4417c038b556ad5dd41e20c5656492c0"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.12_20260319144653/FileUni-cli-x86_64-macos-darwin.zip"
+      sha256 "d19f0452cb514990d9df0f66c8b0b9ab85cd19bf806470a8bf1281a942ab633d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.10_20260318223617/FileUni-cli-aarch64-linux-gnu.zip"
-      sha256 "3a40690b80e7bfeb9defff7e2ac3c4e1bbe99fa2e64b7fe00c64afc6b7ef5d64"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.12_20260319144653/FileUni-cli-aarch64-linux-gnu.zip"
+      sha256 "98d32438f6c937c2917add9825dfd1cb52eade4df842f8a0bfdbbdc495e68074"
     else
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.10_20260318223617/FileUni-cli-x86_64-linux-gnu.zip"
-      sha256 "f4a7bc707916eba058f00f3ce92f3ea892f465a66ff0e0d49d3cd9bf89cb1f8a"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.0.4-alpha.12_20260319144653/FileUni-cli-x86_64-linux-gnu.zip"
+      sha256 "87ca5aa32a69b58ce2430f48cf4db77a5481cccfbb9fcff8bd557c8768cb9b51"
     end
   end
 
