@@ -1,26 +1,26 @@
 class Fileuni < Formula
   desc "FileUni CLI"
   homepage "https://fileuni.com"
-  version "0.1.4-alpha.3.20260403190958"
+  version "0.1.5"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.1.4-alpha.3_20260403190958/FileUni-cli-aarch64-macos-darwin.zip"
-      sha256 "da81c9beb55d2ccaec60f6587f789a011832c3cf863b99ab04229814a3dcca26"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.1.5/FileUni-cli-aarch64-macos-darwin.zip"
+      sha256 "7655d0dbde45a586557506567f9cf5f01b90072fe88d9cebc14076a6eec33b1e"
     else
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.1.4-alpha.3_20260403190958/FileUni-cli-x86_64-macos-darwin.zip"
-      sha256 "84d68883c5f29564459dbc1f089202b8e010c2fc22da5cfa2eb0b7380c7dde03"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.1.5/FileUni-cli-x86_64-macos-darwin.zip"
+      sha256 "d249211cece45053068a84ad153444d22f0252c74d1ae45b98bcdcb369b5b8c4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.1.4-alpha.3_20260403190958/FileUni-cli-aarch64-linux-gnu.zip"
-      sha256 "59aba7d76ae76ec13edacde9f86c5e0a54bfbc225d9c1a62e6e623d592dad540"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.1.5/FileUni-cli-aarch64-linux-gnu.zip"
+      sha256 "0e71baa7f9cb7fca5b266f83d71948070a46fd99318a04abced4c933081edcef"
     else
-      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.1.4-alpha.3_20260403190958/FileUni-cli-x86_64-linux-gnu.zip"
-      sha256 "93cd791d894ade81cec6254e4848114991195fdf8c8d7637c78c461799cf1d1f"
+      url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.1.5/FileUni-cli-x86_64-linux-gnu.zip"
+      sha256 "10b3f5e478d04a7b974f9519ee952590c7c965100e81f28a0e5db85d71447948"
     end
   end
 
