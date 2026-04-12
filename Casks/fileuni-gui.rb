@@ -1,10 +1,10 @@
 cask "fileuni-gui" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.1.7"
-  sha256 arm: "b0134810f4a9989e06f15ce73da2ce63058e8a63699fddaf3f7574a7eec1272e", intel: "15abcd3587b9dc686fa36d4c7e1504b77f527aef4a5e76391bb7e8940e9ec953"
+  version "0.1.8-alpha.1.20260412224510"
+  sha256 arm: "31d7583a81633fb52529f88da33dfbe71947d61a6fab5b53474f05606ad9c5eb", intel: "12c95adc3ba2529f3523caba7447b39eb1c8832df3d715698798f89c19d5a6c2"
 
-  url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.1.7/FileUni-gui-#{arch}-macos-darwin.dmg"
+  url "https://github.com/FileUni/FileUni-Project/releases/download/FileUni-v0.1.8-alpha.1_20260412224510/FileUni-gui-#{arch}-macos-darwin.dmg"
   name "FileUni UI"
   desc "FileUni GUI"
   homepage "https://fileuni.com"
